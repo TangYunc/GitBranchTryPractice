@@ -15,6 +15,7 @@
 		DD78C7D721198C130042098F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C7D621198C130042098F /* main.m */; };
 		DD78C7E121198C130042098F /* GitBranchTryPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C7E021198C130042098F /* GitBranchTryPracticeTests.m */; };
 		DD78C7EC21198C130042098F /* GitBranchTryPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C7EB21198C130042098F /* GitBranchTryPracticeUITests.m */; };
+		DD78C7FB211991900042098F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C7FA211991900042098F /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DD78C7E721198C130042098F /* GitBranchTryPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitBranchTryPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD78C7EB21198C130042098F /* GitBranchTryPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitBranchTryPracticeUITests.m; sourceTree = "<group>"; };
 		DD78C7ED21198C130042098F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD78C7F9211991900042098F /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DD78C7FA211991900042098F /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				DD78C7C821198BFB0042098F /* AppDelegate.m */,
 				DD78C7CA21198BFB0042098F /* ViewController.h */,
 				DD78C7CB21198BFB0042098F /* ViewController.m */,
+				DD78C7F9211991900042098F /* Person.h */,
+				DD78C7FA211991900042098F /* Person.m */,
 				DD78C7CD21198BFB0042098F /* Main.storyboard */,
 				DD78C7D021198C130042098F /* Assets.xcassets */,
 				DD78C7D221198C130042098F /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				DD78C7CC21198BFB0042098F /* ViewController.m in Sources */,
 				DD78C7D721198C130042098F /* main.m in Sources */,
+				DD78C7FB211991900042098F /* Person.m in Sources */,
 				DD78C7C921198BFB0042098F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
