@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
+#import "Student.h"
 
 @interface ViewController ()
 
@@ -17,9 +19,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self demo];
-    
+//    [self demo];
+    [self deme2];
 }
+
+- (void)deme2{
+    
+    Person *person = [[Person alloc] init];
+    [person teach];
+    Student *student = [[Student alloc] init];
+    [student study];
+}
+
 - (void)demo{
     // Do any additional setup after loading the view, typically from a nib.
     //    NSArray *roleArray = [NSArray arrayWithObjects:@"",@"康复人员",@"禁毒办",@"乡镇街道",@"司法部门",@"卫生部门",@"检测机构", @"康复家属",@"",@"",@"网格成员",@"衔接团队",@"巡诊医生",@"未知",@"未知",@"未知",nil];

@@ -10,4 +10,5 @@
 
 @interface Person : NSObject
 
+- (void)teach;
 @end

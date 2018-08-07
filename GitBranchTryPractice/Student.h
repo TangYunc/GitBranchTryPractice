@@ -10,4 +10,5 @@
 
 @interface Student : NSObject
 
+- (void)study;
 @end

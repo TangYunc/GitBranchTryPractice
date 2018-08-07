@@ -9,5 +9,16 @@
 #import "Person.h"
 
 @implementation Person
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        NSLog(@"我是%@",NSStringFromClass([super class]));
+    }
+    return self;
+}
 
+- (void)teach{
+    NSLog(@"教学生");
+}
 @end

@@ -10,4 +10,16 @@
 
 @implementation Student
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        NSLog(@"我是%@", NSStringFromClass([self class]));
+    }
+    return self;
+}
+
+- (void)study{
+    NSLog(@"跟老师学习");
+}
 @end
