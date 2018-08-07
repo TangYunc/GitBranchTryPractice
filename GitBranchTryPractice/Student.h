@@ -1,5 +1,5 @@
 //
-//  Person.h
+//  Student.h
 //  GitBranchTryPractice
 //
 //  Created by tangyunchuan on 2018/8/7.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Person : NSObject
+@interface Student : NSObject
 
-- (void)teach;
+- (void)study;
 @end
